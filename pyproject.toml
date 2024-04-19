@@ -10,6 +10,7 @@ python = "^3.12"
 selenium = "^4.19.0"
 webdriver-manager = "^4.0.1"
 beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.2"
 
 
 [build-system]

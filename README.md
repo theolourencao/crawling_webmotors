@@ -1,5 +1,7 @@
 # How to find the best vehicle available?
 
+*It's not finished yet, it is my first project on git*
+
 ## Premises
 
 1. I have already chosen the models that I desire, they are Honda Nmax and PCX.
