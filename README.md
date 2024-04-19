@@ -13,3 +13,10 @@
 - You have to have google chrome installed in your machine
 - You need to install Pyenv and Poetry
 
+## To be Done
+
+- Getting a better performance at scrolling down pages
+- Improving link finder to just consider links of selling items
+- Creating the final data exporter for getting data from accessed links
+
+_It will be important testing it on another machine_
