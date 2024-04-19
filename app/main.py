@@ -7,10 +7,11 @@ import time
 
 driver = webdriver.Chrome()
 
-webmotors = './data/search_links.json'
+webmotors_path = './data/search_links.json'
+individual_links_path = './data/individual_links.json'
 
 
-with open(webmotors, 'r') as file:
+with open(webmotors_path, 'r') as file:
     data= json.load(file) 
 
 links_das_motos=[]
@@ -37,20 +38,17 @@ for bike_list in data:
         param=dict(nome_veiculo=moto, link_veiculo=href)
         links_das_motos.append(param)
         
+        with open('data')
         
+        
+# função para abrir um link e expandir ele
+    # e no final retornar o html da página completo
+    
+#função para extrair os hrefs do html
+    # e retornar um arquivo json desses links
+    
+#função para extrair os elementos de cada do json de links
+    # e retornar outro arquivo com todas as infos para ficar salvo
     
     
     
-
-# Add tests here
-
-
-# primeiro pegar o link das motos
-    #consegui encontrar elementos (supostamente)
-    #vou iterar os elementos para achar os hrefs
-    #colocar eles em um dicionário ou lista
-
-
-# depois pegar link a link para ir pegando os elementos delas
-
-
