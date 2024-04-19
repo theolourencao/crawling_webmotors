@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "webmotors"
+version = "0.1.0"
+description = "Dos modelos que eu quero, quais são as melhores ofertas dentro de quilometragem, ano, e outros detalhes"
+authors = ["theo lourenção"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.19.0"
+webdriver-manager = "^4.0.1"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
