@@ -19,7 +19,7 @@ def scroll_down_pages(link):
     driver.fullscreen_window()
     
     time.sleep(8)
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
     time.sleep(8)
     
     content= driver.page_source

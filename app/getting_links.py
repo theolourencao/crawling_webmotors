@@ -1,14 +1,11 @@
 from bs4 import BeautifulSoup
 import re 
 import pandas as pd
+from creating_connections import HtMasterL
 
-html_path= '../data/html_exemplo.html'
+path= '../data/html_exemplo.html'
 
-
-with open(html_path, 'r') as file:
-    file_site=file.read()
-
-def get_links(modelo,file_site):
+def get_links(modelo,path):
     
     """
     Com essa função você terá um dataframe de todos os links da página que você acessou
@@ -19,14 +16,18 @@ def get_links(modelo,file_site):
     
     link_list=[]
     
-    soup= BeautifulSoup(file_site, 'html.parser')
+    ht= HtMasterL(path)
+    
+    soup = ht.connect_source("FILE", False)
+    
+    
     for link in soup.find_all('a', attrs={'href': re.compile("^https://")}):
         link_list.append(link.get('href'))
         
     df= pd.DataFrame(link_list,columns=['link']).drop_duplicates()
-    df['modelo']= modelo
+    df['modelo'] = modelo
     return df
     
 
 
-print(get_links("NMAX",file_site))
+print(get_links("NMAX",path))

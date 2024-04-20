@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 import requests
 import time
 import json
+ 
 
 link ="https://www.webmotors.com.br/comprar/honda/pcx/151cc/2018/2211593?pos=a2211593g:&np=1"
 
@@ -19,17 +20,9 @@ def exporting_vehicle_data(link):
         link (_type_): The link of each available vehicle
     """
 
-    # driver=webdriver.Chrome()
-    
-    # driver.get(link)
-    # driver.fullscreen_window()
-    
-    # time.sleep(8)
-    
-    # content=driver.page_source
-    # soup= BeautifulSoup(content, 'html.parser')
-
     vehicle_data = {}
+    
+    #TRAZER AQUI A FUNÇÃO QUE RETORNA O SOUP
 
     location_element = soup.find('strong', {'id': 'VehiclePrincipalInformationLocation'})
     
