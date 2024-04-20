@@ -1,0 +1,18 @@
+[
+    {
+    "id":"VehiclePrincipalInformationLocation",
+    "alias":"localizacao"
+    ,"type": "id"},
+    {
+    "id":"VehiclePrincipalInformatiOnodometer"
+    ,"alias":"kms_rodados"},
+    
+
+
+
+{"id":"VehiclePrincipalInformationTransmission"
+  ,"alias":"tipo_motor"},
+{"id":"VehiclePrincipalInformationTransmission"
+  ,"alias":"tipo_motor"},
+
+ ]
