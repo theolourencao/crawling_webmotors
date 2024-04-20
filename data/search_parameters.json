@@ -1,18 +1,47 @@
 [
     {
-    "id":"VehiclePrincipalInformationLocation",
-    "alias":"localizacao"
-    ,"type": "id"},
+      "id":"VehiclePrincipalInformationLocation",
+      "alias":"localizacao"
+      ,"obj": "strong"
+      ,"type": "id"},
     {
-    "id":"VehiclePrincipalInformatiOnodometer"
-    ,"alias":"kms_rodados"},
+      "id":"VehiclePrincipalInformatiOnodometer"
+      ,"alias":"kms_rodados"
+      ,"obj": "strong"
+      ,"type": "id"},
+    {
+      "id":"VehiclePrincipalInformationTransmission"
+      ,"alias":"transmissao"
+      ,"obj": "strong"
+      ,"type": "id"},
+    {
+      "id":"VehiclePrincipalInformationFuel"
+      ,"alias":"cor"
+      ,"obj": "strong"
+      ,"type": "id"},
+    {
+      "id":"VehicleSellerInformationPhone_0"
+      ,"alias":"cor"
+      ,"obj": "strong"
+      ,"type": "id"},
+    {
+      "id":"VehicleDetailsFipe__price VehicleDetailsFipe__price--webmotors"
+      ,"alias":"fipe"
+      ,"obj": "strong"
+      ,"type": "class"},
+    {
+      "id":"VehicleDetailsFipe__price__value"
+      ,"alias":"avg_value"
+      ,"obj": "strong"
+      ,"type": "class"},
+    {
+      "id":"VehicleDetailsFipe__price__value"
+      ,"alias":"value"
+      ,"obj": "strong"
+      ,"type": "class"}
+
+
+    ]
     
 
 
-
-{"id":"VehiclePrincipalInformationTransmission"
-  ,"alias":"tipo_motor"},
-{"id":"VehiclePrincipalInformationTransmission"
-  ,"alias":"tipo_motor"},
-
- ]
